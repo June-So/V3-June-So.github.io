@@ -26,8 +26,8 @@ $(document).ready(function(){
   skillProgress('MYSQL',80);
   skillProgress('PYTHON',10);
 
-  skillProgress('BACKEND',70,200.0);
-  skillProgress('FRONTEND',40,150.0);
-  skillProgress('DATABASE',50,150.0);
+  skillProgress('FRONTEND',35,125.0);
+  skillProgress('BACKEND',65,175.0);
+  skillProgress('DATABASE',55,125.0);
 
 });
