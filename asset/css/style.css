@@ -36,30 +36,23 @@ strong{
   margin-bottom: 50px;
 }
 
-/*.pad-md{
-  margin-left: 40px;
-}*/
 
 #index{
   height: 100vh
 }
-
-/*#index p{
-  padding-top: 20px;
-}*/
 
 .big-icon{
   text-align: center;
   padding: 20px 0px;
 }
 
+/* Row principales de la page index */
 .row-index-l{
-  /*height: 41%;*/
   padding-top: 50px;
+  text-align: center;
 }
 
 .row-index-md{
-  /*height: 32%;*/
   padding-top: 30px;
 }
 
@@ -98,10 +91,14 @@ strong{
 /* -- Icone et bar progress */
 [class*="skill-"] {
     box-sizing: border-box;
-    width: 100%;
-    /*position: relative;*/
+    width: 125px;
+    position: relative;
     text-align: center;
-    padding: 10px;
+    margin: auto;
+}
+
+.skill-xl{
+  width: 175px;
 }
 
 .listLanguages h2{
@@ -116,10 +113,12 @@ strong{
   color: #1d1326;
 }
 
+/* Icones */
+
 .icon {
     position: absolute;
-    top: 84px;
-    left: 90px;
+    top: 26px;
+    left: 39px;
     font-size: 50px;
     /*color: #6cf; */
     color: #1d1326;
@@ -127,20 +126,17 @@ strong{
 }
 
 .icon-xl{
-  left: 114px;
+  top: 52px;
+  left: 42px;
   font-size: 75px;
-  top: 60px;
 }
 
 .icon-md{
-  right: 86px;
   font-size: 48px;
-  top: 50px;
+  top: 40px;
+  left: 41px;
 }
 
-.icon-python{
-  left: 115px;
-}
 
 /* -- Puce de notation de competence */
 .li-skill{

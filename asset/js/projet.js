@@ -23,7 +23,7 @@ $(document).ready(function(){
   // }
   function createProject(){
     $.each(listProjects, function(key,value){
-      $('#indexProject').append('<div class="col-6 project bloc-text">'+
+      $('#indexProject').append('<div class="col-md-6 project bloc-text">'+
           // '<p class="bold-dark">'+value['date']+'</p>'+
           '<div class="info-'+key+'">'+
             '<h2>'+value['name']+'</h2>'+
