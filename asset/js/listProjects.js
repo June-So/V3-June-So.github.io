@@ -2,11 +2,11 @@ var listProjects = [
   {
     'name' : 'Registre DPO(RGPD-GDR)',
     'type' : 'Application Saas',
-    'date': 'mars-aout 2018',
+    'date': 'mars-aout 2017',
     'tag' : ['symfony','twig','doctrine','mysql','ftp'],
     'image': '',
     'resume': 'Cet outil permet au responsable de traitement RGPD d’établir le registre des activités de traitement exigé par l’article 30 du règlement européen sur la protection des données (RGPD-GDPR).',
-    'state' : 'En ligne',
+    'state' : 'En ligne - 2017',
     'link' : {
       'url':'https://lexing.law/registre',
       'icon':''
@@ -19,7 +19,7 @@ var listProjects = [
     'tag' : ['symfony','twig','doctrine','ftp'],
     'image': '',
     'resume': 'Cet outil permet au sous-traitant RGPD d’établir le registre des activités de traitement exigés par l’article 30 du règlement européen sur la protection des données (RGPD-GDPR).',
-    'state' : 'En ligne',
+    'state' : 'En ligne - 2017',
     'link' : {
       'url':'https://www.alain-bensoussan.com/avocats-rgpd-gdpr-registre-faille-sous-traitant-contrat/',
       'icon':''
@@ -28,11 +28,11 @@ var listProjects = [
   {
     'name' : 'Violation de données personnelles',
     'type' : 'Application Saas',
-    'date': 'mars-aout 2018',
+    'date': 'mars-aout 2017',
     'tag' : ['symfony','twig','doctrine','ftp'],
     'image': '',
     'resume': 'Cet outil permet au responsable de traitement et sous-traitant RGPD d’établir le registre des failles de sécurité exigés par le RGPD.',
-    'state' : 'En ligne',
+    'state' : 'En ligne - 2017',
     'link' : {
       'url':'https://lexing.law/violation-donnees',
       'icon':''
@@ -72,7 +72,7 @@ var listProjects = [
     'tag' : ['html','css'],
     'image': '',
     'resume': 'Template réalisé pour une session de reverse mentoring, permettant à nos apprenants de le remplir et de le manipuler pour ajouter leurs textes et images',
-    'state' : 'Terminé',
+    'state' : 'Terminé - 2016',
     'link' : {
       'url':'https://github.com/June-So/Template-DRH-Saint-Gobain',
       'icon':'devicon devicon-github-plain'
@@ -98,7 +98,7 @@ var listProjects = [
     'tag' : [ 'javascript','html','css','jquery' ],
     'image': '',
     'resume' : 'Jeu d\'incrémentation : Vous êtes un chat qui veut dominer le monde, collectez les âmes des humains via internet',
-    'state' : 'Projet fermé',
+    'state' : 'Projet fermé - 2016',
     'link' :  {
       'url':'https://github.com/June-So/Mr.CatWorld',
       'icon': 'devicon devicon-github-plain'
@@ -111,7 +111,7 @@ var listProjects = [
     'tag' : ['css','animation css','html'],
     'image': 'Mai 2016',
     'resume': 'Mon premier Cv, réalisé complétement en css',
-    'state' : 'Terminé',
+    'state' : 'Terminé - 2016',
     'link' : {
       'url':'https://github.com/June-So/V1-June-So.github.io',
       'icon':'devicon devicon-github-plain'
