@@ -22,8 +22,8 @@ $(document).ready(function(){
     })
   }
 
-/* -----------  Controller ---------- */
+  /* -----------  Controller ---------- */
 
-createProject();
+  createProject();
 
 });
