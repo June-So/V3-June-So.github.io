@@ -70,8 +70,6 @@ strong{
 /* -- Style de bloc */
 .bloc-text{
   background-color: #0e0521;
-  /*background: linear-gradient(to top,#0e0520,#1b1146);*/
-  /*margin: -2px;*/
   padding: 20px;
 }
 
@@ -124,9 +122,7 @@ strong{
     top: 26px;
     left: 39px;
     font-size: 50px;
-    /*color: #6cf; */
     color: #1d1326;
-    /*box-shadow: 0 0 16px #a27ce7;*/
 }
 
 .icon-xl{
@@ -155,16 +151,13 @@ strong{
 }
 
 .list-skill ul{
-  /* list-style: none; */
   padding: 25px 20px 15px 15px;
   list-style: none;
 }
 
 .list-skill li{
   margin-bottom: 10px;
-  /* line-height: 16px; */
 }
-/*color: #4f8ca5;*/
 
 .text-xl{
   font-size: 18px;
@@ -177,8 +170,6 @@ strong{
 }
 
 .badge {
-  /*194a95*/
-    /*background-color: #1b1146;*/
     border: 1px #194a95 solid;
     color: #194a95;
     margin: 2px;
