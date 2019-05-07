@@ -1,11 +1,37 @@
+$dark-ocean: #1d493c;
+$ocean : #2e8a67;
+$maroon : #3f2c11;
+$gold : #b38030;
+$light-gold : #dfd487;
+$sky : #6cf;
+$deep-ocean : #1d1326;
+$pumpkin: #f97d26;
 
+$background-color : $dark-ocean;
+$background-block : $ocean;
+
+$color-important :  $deep-ocean;
+$shadow-important : #fff;
+$color-subtitle : $light-gold;
+$color-text : #fff;
+
+$color-pill : #1d1326;
+$color-list : #4f8ca5;
+$color-badge : #194a95;
+/* Button */
+$background-link : $maroon;
+$background-button-hover : $gold;
+
+$color-button : #fafafa;
+$background-button-focus-b: #e6e6e6;
+$color-button-focus : #222;
 
 body{
-  background-color: #0d0119;
+  background-color: $background-color;
 }
 
 h1, h3{
-  color: #fff;
+  color: $color-important;
 }
 
 h3{
@@ -13,24 +39,24 @@ h3{
 }
 
 h2{
-  color: #6cf;
+  color: $color-subtitle;
   font-size: 30px;
 }
 
 p,ul,.li-skill{
   font-size: 14px;
-  color: #6b8590;
+  color: $color-text;
 }
 
 hr{
   margin-top: 5px;
   margin-bottom: 5px;
-  color: #6cf;
+  color: $color-subtitle;
 }
 
 strong{
-  color: #fff;
-  text-shadow: 0 0 6px #99f;
+  color: $color-important;
+  text-shadow: 0 0 6px $shadow-important;
 }
 
 .container-primary-stats{
@@ -71,7 +97,7 @@ strong{
 
 /* -- Style de bloc */
 .bloc-text{
-  background-color: #0e0521;
+  background-color: $background-block;
   padding: 20px;
 }
 
@@ -110,11 +136,11 @@ strong{
 }
 
 .far{
-  background-color: #1d1326;
+  background-color: $color-pill;
 }
 
 .fa-circle{
-  color: #1d1326;
+  color: $color-pill;
 }
 
 /* Icones */
@@ -124,7 +150,7 @@ strong{
     top: 26px;
     left: 39px;
     font-size: 50px;
-    color: #1d1326;
+    color: $color-pill;
 }
 
 .icon-xl{
@@ -147,7 +173,7 @@ strong{
 
 /* Liste de compétences en vrac*/
 .list-skill{
-  border: 1px solid #4f8ca5;
+  border: 1px solid $color-list;
   height: 100%;
   padding: 8px;
 }
@@ -163,33 +189,33 @@ strong{
 
 .text-xl{
   font-size: 18px;
-  color: #fff;
+  color: $color-important;
 }
 
 /* Projet */
 .project{
-  border: 3px #0d0119 solid;
+  border: 3px $background-color solid;
 }
 
 .badge {
-    border: 1px #194a95 solid;
-    color: #194a95;
+    border: 1px $color-badge solid;
+    color: $color-badge;
     margin: 2px;
     font-size: 16px;
 }
 
 .c-lblue{
-  color: #4f8ca5;
+  color: $color-list;
 }
 
 .c-dark{
-  color: #1d1326;
+  color: $color-pill;
 }
 
 /* bouton */
 .button.button-primary:hover, .button.button-primary:focus {
-    background: #006da3;
-    color: #fafafa;
+    background: $background-button-hover;
+    color: $color-button;
 }
 .button-small.button-primary, .button-small.button-info, .button-small.button-success, .button-small.button-warning, .button-small.button-danger, .button-small.button-inverse {
     box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
@@ -198,12 +224,12 @@ strong{
     text-decoration: none;
 }
 .button.button-primary {
-    background: #0088cc;
-    color: #fafafa;
+    background: $background-link;
+    color: $color-button;
 }
 .button:hover, .button:focus {
-    background: #e6e6e6;
-    color: #222;
+    background: $background-button-focus-b;
+    color: $color-button-focus;
 }
 .button.button-primary, .button.button-info, .button.button-success, .button.button-warning, .button.button-danger, .button.button-inverse {
     box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.2);
@@ -256,11 +282,11 @@ a:active, a:hover {
     transition-property: background-color;
     transition-duration: 0.2s;
     transition-timing-function: linear;
-    background: #fafafa;
-    color: #222;
+    background: $color-button;
+    color: $color-button-focus;
 }
 a {
-    color: #0088cc;
+    color: $background-link;
     text-decoration: none;
 }
 a {

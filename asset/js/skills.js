@@ -2,7 +2,7 @@ $(document).ready(function(){
 /* ------- Fonction --------- */
 
 /**
- * Construit un bloc progress-bar pour chaque compétence de langages
+ * Construit un bloc progress-bar pour chaque compétence de langage
  */
  function skillProgress(name,value,size=100.0){
     $('.skill-'+name).circleProgress({
@@ -26,8 +26,12 @@ $(document).ready(function(){
   skillProgress('MYSQL',80);
   skillProgress('PYTHON',10);
 
+
   skillProgress('FRONTEND',35,125.0);
   skillProgress('BACKEND',65,175.0);
   skillProgress('DATABASE',55,125.0);
+
+   skillProgress('DATAVIZ',35,125.0);
+   skillProgress('MODEL', 25,175.0)
 
 });
