@@ -6,7 +6,7 @@ var listProjects = [
     'tag' : ['flask','selenium','mysql','keras','spacy','nltk','kaggle API'],
     'image': '',
     'resume': "Labellisation automatique d'avis sur les chenils et pension pour animaux, aide à la détection de mauvaises conditions de vie pour les animaux",
-    'state' : 'En développement - 2019',
+    'state' : 'En développement',
     'link' : {
       'url':'',
       'icon':''
@@ -15,11 +15,11 @@ var listProjects = [
   {
     'name' : 'Titanic',
     'type' : 'Modèle de prédiction logistique',
-    'date': 'mars-aout 2018',
+    'date': 'Février 2019',
     'tag' : ['git','python','sklearn','kaggle'],
     'image': '',
     'resume': 'Modèle pour évaluer la survie des passagers du titanic',
-    'state' : 'Compétition terminée - Février 2019',
+    'state' : 'Compétition terminée',
     'link' : {
       'url':'',
       'icon':''
@@ -32,7 +32,7 @@ var listProjects = [
     'tag' : ['git','python','kaggle'],
     'image': '',
     'resume': "Modèle pour évaluer le prix d'une maison, compétion kaggle",
-    'state' : 'Compétition terminée - 2018',
+    'state' : 'Compétition terminée',
     'link' : {
       'url':'',
       'icon':''

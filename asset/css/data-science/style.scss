@@ -1,3 +1,4 @@
+/* Palette Ocean */
 $dark-ocean: #1d493c;
 $ocean : #2e8a67;
 $maroon : #3f2c11;
@@ -6,25 +7,39 @@ $light-gold : #dfd487;
 $sky : #6cf;
 $deep-ocean : #1d1326;
 $pumpkin: #f97d26;
+/* Palette purple */
+$purple: #4e2147;
+$prune: #67426b;
+$yellow: #e3bf33;
+/* Palette Magenta */
+$broken-white: #fffbc7;
+$sand: #e1d8c6;
+$magenta: #ef1f49;
+$magenta-off: #ddbaba;
+$magenta-ligth: #fe5450;
+$black: #020718;
+$blue-grey: #444c67;
 
-$background-color : $dark-ocean;
-$background-block : $ocean;
-
-$color-important :  $deep-ocean;
+/* --------------- */
+$background-color : $broken-white;
+$background-block : $sand;
+/* text */
+$color-important :  $black;
 $shadow-important : #fff;
-$color-subtitle : $light-gold;
-$color-text : #fff;
-
-$color-pill : #1d1326;
-$color-list : #4f8ca5;
-$color-badge : #194a95;
+$color-text : $blue-grey;
+$color-subtitle : $magenta;
+/* pills */
+$color-off : $magenta-off;
+$color-pill : $magenta;
+$color-badge : $magenta;
 /* Button */
-$background-link : $maroon;
-$background-button-hover : $gold;
-
+$background-link : $magenta;
+$background-button-hover : $magenta-ligth;
 $color-button : #fafafa;
 $background-button-focus-b: #e6e6e6;
 $color-button-focus : #222;
+
+/* ------ ------ */
 
 body{
   background-color: $background-color;
@@ -135,12 +150,8 @@ strong{
     text-align: center;
 }
 
-.far{
-  background-color: $color-pill;
-}
-
 .fa-circle{
-  color: $color-pill;
+  color: $color-off;
 }
 
 /* Icones */
@@ -150,7 +161,7 @@ strong{
     top: 26px;
     left: 39px;
     font-size: 50px;
-    color: $color-pill;
+    color: $magenta;
 }
 
 .icon-xl{
@@ -173,7 +184,7 @@ strong{
 
 /* Liste de compétences en vrac*/
 .list-skill{
-  border: 1px solid $color-list;
+  border: 1px solid $color-pill;
   height: 100%;
   padding: 8px;
 }
@@ -205,15 +216,15 @@ strong{
 }
 
 .c-lblue{
-  color: $color-list;
-}
-
-.c-dark{
   color: $color-pill;
 }
 
+.c-dark{
+  color: $color-off;
+}
+
 /* bouton */
-.button.button-primary:hover, .button.button-primary:focus {
+.button-text.button-primary:hover,.button.button-primary:hover, .button-text.button-primary, .button.button-primary:focus {
     background: $background-button-hover;
     color: $color-button;
 }
@@ -223,7 +234,7 @@ strong{
 .button:hover {
     text-decoration: none;
 }
-.button.button-primary {
+.button-text.button-primary,.button.button-primary {
     background: $background-link;
     color: $color-button;
 }
@@ -231,7 +242,7 @@ strong{
     background: $background-button-focus-b;
     color: $color-button-focus;
 }
-.button.button-primary, .button.button-info, .button.button-success, .button.button-warning, .button.button-danger, .button.button-inverse {
+.button-text.button-primary,.button.button-primary, .button.button-info, .button.button-success, .button.button-warning, .button.button-danger, .button.button-inverse {
     box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.2);
 }
 .buttons .button {
@@ -247,14 +258,7 @@ a:active, a:hover {
     display: inline-block;
     vertical-align: middle;
 }
-.button-small {
-    height: 30px;
-    padding: 0 10px;
-    border-radius: 4px;
-    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.15);
-    font-size: 14px;
-    line-height: 28px;
-}
+
 .button {
     width: 254px;
     /*display: block;*/
@@ -285,6 +289,46 @@ a:active, a:hover {
     background: $color-button;
     color: $color-button-focus;
 }
+.button-text {
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.15);
+    font-size: 15px;
+    line-height: 20px;
+    padding: 11px 21px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+    -webkit-transition-property: background-color;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+    -moz-transition-property: background-color;
+    -moz-transition-duration: 0.2s;
+    -moz-transition-timing-function: linear;
+    -ms-transition-property: background-color;
+    -ms-transition-duration: 0.2s;
+    -ms-transition-timing-function: linear;
+    -o-transition-property: background-color;
+    -o-transition-duration: 0.2s;
+    -o-transition-timing-function: linear;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    background: $color-button;
+    color: $color-button-focus;
+
+}
+
+.button-small {
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 4px;
+    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.15);
+    font-size: 14px;
+    line-height: 28px;
+}
+
 a {
     color: $background-link;
     text-decoration: none;
@@ -292,4 +336,8 @@ a {
 a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
+}
+
+.border-magenta{
+    border-color: $magenta !important;
 }

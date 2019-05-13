@@ -1,269 +1,305 @@
-
-
-body{
+@charset "UTF-8";
+body {
   background-color: #0d0119;
 }
 
-h1, h3{
+h1, h3 {
   color: #fff;
 }
 
-h3{
+h3 {
   font-size: 24px;
 }
 
-h2{
+h2 {
   color: #6cf;
   font-size: 30px;
 }
 
-p,ul,.li-skill{
+p, ul, .li-skill {
   font-size: 14px;
   color: #6b8590;
 }
 
-hr{
+hr {
   margin-top: 5px;
   margin-bottom: 5px;
   color: #6cf;
 }
 
-strong{
+strong {
   color: #fff;
   text-shadow: 0 0 6px #99f;
 }
 
-.container-primary-stats{
+.container-primary-stats {
   margin-top: 10px;
   margin-bottom: 50px;
 }
 
-.container-know-more{
+.container-know-more {
   padding-top: 35px;
 }
 
-
-#index{
-  height: 100vh
+#index {
+  height: 100vh;
 }
 
-.big-icon{
+.big-icon {
   text-align: center;
   padding: 20px 0px;
 }
 
 /* Row principales de la page index */
-.row-index-l{
+.row-index-l {
   padding-top: 50px;
   text-align: center;
 }
 
-.row-index-md{
+.row-index-md {
   padding-top: 30px;
 }
 
 /* Liste */
 .list-space li {
-    list-style: none;
-    margin: 20px 0px;
+  list-style: none;
+  margin: 20px 0px;
 }
-
 
 /* -- Style de bloc */
-.bloc-text{
-  background-color: #0e0521;
-  padding: 20px;
+.bloc-text {
+  background-color: #121123;
 }
 
-
-.bloc-list{
+.bloc-list {
   padding: 20px 0px;
 }
 
-.secondary-skills{
+.secondary-skills {
   padding-left: 50px;
 }
 
-.list-python{
+.list-python {
   padding: 20px 0px 20px 40px;
 }
 
-.bloc-list h3{
+.bloc-list h3 {
   margin-bottom: 20px;
 }
 
 /* -- Icone et bar progress */
-[class*="skill-"] {
-    box-sizing: border-box;
-    width: 125px;
-    position: relative;
-    text-align: center;
-    margin: auto;
+[class*=skill-] {
+  box-sizing: border-box;
+  width: 125px;
+  position: relative;
+  text-align: center;
+  margin: auto;
 }
 
-.skill-xl{
+.skill-xl {
   width: 175px;
 }
 
-.listLanguages h2{
-    text-align: center;
+.listLanguages h2 {
+  text-align: center;
 }
 
-.far{
+.far {
   background-color: #1d1326;
 }
 
-.fa-circle{
+.fa-circle {
   color: #1d1326;
 }
 
 /* Icones */
-
 .icon {
-    position: absolute;
-    top: 26px;
-    left: 39px;
-    font-size: 50px;
-    color: #1d1326;
+  position: absolute;
+  top: 26px;
+  left: 39px;
+  font-size: 50px;
+  color: #1d1326;
 }
 
-.icon-xl{
+.icon-xl {
   top: 52px;
   left: 42px;
   font-size: 75px;
 }
 
-.icon-md{
+.icon-md {
   font-size: 48px;
   top: 40px;
   left: 41px;
 }
 
-
 /* -- Puce de notation de competence */
-.li-skill{
-  padding:2px 0px;
+.li-skill {
+  padding: 2px 0px;
 }
 
 /* Liste de compétences en vrac*/
-.list-skill{
-  border: 1px solid #4f8ca5;
+.list-skill {
   height: 100%;
   padding: 8px;
 }
 
-.list-skill ul{
+.list-skill ul {
+  border-left: 1px solid #4f8ca5;
   padding: 25px 20px 15px 15px;
   list-style: none;
 }
 
-.list-skill li{
+.list-skill li {
   margin-bottom: 10px;
 }
 
-.text-xl{
+.text-xl {
   font-size: 18px;
   color: #fff;
 }
 
 /* Projet */
-.project{
+.project {
   border: 3px #0d0119 solid;
 }
 
 .badge {
-    border: 1px #194a95 solid;
-    color: #194a95;
-    margin: 2px;
-    font-size: 16px;
+  border: 1px #194a95 solid;
+  color: #194a95;
+  margin: 2px;
+  font-size: 16px;
 }
 
-.c-lblue{
+.c-lblue {
   color: #4f8ca5;
 }
 
-.c-dark{
+.c-dark {
   color: #1d1326;
 }
 
 /* bouton */
-.button.button-primary:hover, .button.button-primary:focus {
-    background: #006da3;
-    color: #fafafa;
+.button-text.button-primary:hover, .button-text.button-primary:focus, .button.button-primary:hover, .button.button-primary:focus {
+  background: #006da3;
+  color: #fafafa;
 }
+
 .button-small.button-primary, .button-small.button-info, .button-small.button-success, .button-small.button-warning, .button-small.button-danger, .button-small.button-inverse {
-    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
 }
+
 .button:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
-.button.button-primary {
-    background: #0088cc;
-    color: #fafafa;
+
+.button-text.button-primary, .button.button-primary {
+  background: #0088cc;
+  color: #fafafa;
 }
+
 .button:hover, .button:focus {
-    background: #e6e6e6;
-    color: #222;
+  background: #e6e6e6;
+  color: #222;
 }
-.button.button-primary, .button.button-info, .button.button-success, .button.button-warning, .button.button-danger, .button.button-inverse {
-    box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.2);
+
+.button-text.button-primary, .button.button-primary, .button.button-info, .button.button-success, .button.button-warning, .button.button-danger, .button.button-inverse {
+  box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.2);
 }
+
 .buttons .button {
-    margin: 0 5px 5px 0;
+  margin: 0 5px 5px 0;
 }
+
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
+
 a:active, a:hover {
-    outline-width: 0;
+  outline-width: 0;
 }
+
 .button-inline {
-    display: inline-block;
-    vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
 }
-.button-small {
-    height: 30px;
-    padding: 0 10px;
-    border-radius: 4px;
-    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.15);
-    font-size: 14px;
-    line-height: 28px;
-}
+
 .button {
-    width: 254px;
-    /*display: block;*/
-    text-align: center;
-    cursor: pointer;
-    border: none;
-    height: 40px;
-    padding: 0 14px;
-    border-radius: 5px;
-    box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.15);
-    font-size: 18px;
-    line-height: 37px;
-    -webkit-transition-property: background-color;
-    -webkit-transition-duration: 0.2s;
-    -webkit-transition-timing-function: linear;
-    -moz-transition-property: background-color;
-    -moz-transition-duration: 0.2s;
-    -moz-transition-timing-function: linear;
-    -ms-transition-property: background-color;
-    -ms-transition-duration: 0.2s;
-    -ms-transition-timing-function: linear;
-    -o-transition-property: background-color;
-    -o-transition-duration: 0.2s;
-    -o-transition-timing-function: linear;
-    transition-property: background-color;
-    transition-duration: 0.2s;
-    transition-timing-function: linear;
-    background: #fafafa;
-    color: #222;
+  width: 254px;
+  /*display: block;*/
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  height: 40px;
+  padding: 0 14px;
+  border-radius: 5px;
+  box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.15);
+  font-size: 18px;
+  line-height: 37px;
+  -webkit-transition-property: background-color;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-property: background-color;
+  -moz-transition-duration: 0.2s;
+  -moz-transition-timing-function: linear;
+  -ms-transition-property: background-color;
+  -ms-transition-duration: 0.2s;
+  -ms-transition-timing-function: linear;
+  -o-transition-property: background-color;
+  -o-transition-duration: 0.2s;
+  -o-transition-timing-function: linear;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  background: #fafafa;
+  color: #222;
 }
+
+.button-text {
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.15);
+  font-size: 15px;
+  line-height: 20px;
+  padding: 11px 21px;
+  -webkit-transition-property: background-color;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-property: background-color;
+  -moz-transition-duration: 0.2s;
+  -moz-transition-timing-function: linear;
+  -ms-transition-property: background-color;
+  -ms-transition-duration: 0.2s;
+  -ms-transition-timing-function: linear;
+  -o-transition-property: background-color;
+  -o-transition-duration: 0.2s;
+  -o-transition-timing-function: linear;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  background: #fafafa;
+  color: #222;
+}
+
+.button-small {
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 4px;
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.15);
+  font-size: 14px;
+  line-height: 28px;
+}
+
 a {
-    color: #0088cc;
-    text-decoration: none;
+  color: #0088cc;
+  text-decoration: none;
 }
+
 a {
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
 }
+
+/*# sourceMappingURL=style.css.map */

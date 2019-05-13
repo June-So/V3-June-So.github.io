@@ -34,15 +34,15 @@
       size: size,
       fill: {
         // color:'#6cf' // or color: '#3aeabb', or image: 'http://i.imgur.com/pT0i89v.png'
-        color:'#6cf',
+        color:'#ef1f49',
          // or color: '#3aeabb', or image: 'http://i.imgur.com/pT0i89v.png'
       },
-      emptyFill: '#1d1326',
+      emptyFill: '#ddbaba',
     });
   }
 
 function add_category(title,slug){
-    html = '<div class="col-3 p-2 px-2"><div id="skill-'+ slug +'" class="border p-2 h-100" style="border-radius: 2%;"><h2 class="text-center font-weight-light my-2">' + title + '</h2></div></div>';
+    html = '<div class="col-xs-12 col-sm-6 col-md-3 p-2 px-2"><div id="skill-'+ slug +'" class="border p-2 h-100" style="border-radius: 2%;"><h2 class="text-center font-weight-light my-2">' + title + '</h2></div></div>';
     $('#primary-skill').append(html);
 }
 
@@ -77,7 +77,7 @@ function add_software(title,software){
     for(var i=0;i<software.length;i++){
         list_software = list_software + '<li>' + software[i] + '</li>';
     }
-    html = '<div class="col"><h2 class="text-center font-weight-light" style="font-size: 26px">' + title + '</h2><ul class="list-unstyled px-4 border-left">' + list_software + '</ul></div>';
+    html = '<div class="col-sm-6 col-md-3"><h2 class="text-center font-weight-light" style="font-size: 26px">' + title + '</h2><ul class="list-unstyled px-4 border-left">' + list_software + '</ul></div>';
     $('#project-software').append(html);
 }
 
@@ -97,26 +97,28 @@ add_icon('DATAMINING', 'icon-extract-data', 10, left=29, top=9);
 add_icon('DATABASE', 'icon-database', 55, left=28, top=10);
 add_icon('ANALYSIS', 'icon-analysis', 30, left=29, top=12);
 add_icon('DATAVIZ', 'icon-presentation', 30, left=28, top=14);
-add_icon('PROCESS', 'icon-data-process', 20, left=32, top=9);
-add_icon('ML', 'icon-thought', 25, left=27, top=9);
+add_icon('PROCESS', 'icon-data-process', 25, left=32, top=9);
+add_icon('ML', 'icon-thought', 30, left=27, top=9);
 add_icon('DL', 'icon-artificial-intelligence', 10, left=27, top=10);
-add_icon('WEB', 'icon-web', 62, left=29, top=9);
+add_icon('WEB', 'icon-web', 62, left=28, top=9);
 
-var datamining_skill = [['Beautiful Soup', 2], ['Selenium', 2], ['Connexion API',3]]
-var database_skill = [['sqlite', 2], ['mysql', 2], ['NoSQLServer', 1], ['PostgresSQL', 2]];
-var analysis_skill = [['pandas', 2], ['powerBI', 1]];
-var dataviz_skill = [['seaborn', 2], ['matplotlib', 3], ['powerBI', 0]];
-var ml_skill = [['sklearn', 2], ['Microsoft Azure ML',1]];
-var process_skill = [['Spacy',1],['Nltk',1]];
-var dl_skill = [['Keras', 2], ['tensorflow', 0]];
+var NOTE_POWER_BI = 1
+
+var datamining_skill = [['beautiful Soup', 2], ['selenium', 2], ['connexion API',3]]
+var database_skill = [['sqlite', 2], ['mysql', 3], ['noSQLServer', 1], ['postgresSQL', 2]];
+var analysis_skill = [['pandas', 2], ['powerBI', NOTE_POWER_BI]];
+var dataviz_skill = [['seaborn', 2], ['matplotlib', 3], ['powerBI', NOTE_POWER_BI]];
+var ml_skill = [['sklearn', 2], ['microsoft azure ML',1]];
+var process_skill = [['spacy',2],['nltk',1]];
+var dl_skill = [['keras', 2], ['tensorflow', 0]];
 var web_skill = [['Django', 1], ['Flask', 3], ['API Rest', 1]];
 
 var database = [['Base de données relationnelle'],['Modélisation de données']];
-var analysis = [['Exploration de données'], ['statistiques descriptives'],['diagnostic de la situation et des données disponibles']];
+var analysis = [['Exploration de données'], ['Statistiques descriptives'],['Diagnostic de la situation et des données disponibles']];
 var dataviz = [];
 var ml = [['Algorithmes de prediction (Random Forest, Logistic..)'], ['Algorithmes de classification (SVM, KMeans..)']];
 var dl = [['Computer Vision'],['Traitement du langage naturel']]
-var web = [['Interface base de données'], ['Application Saas'], ['Développement outils permettant le suivi de métriques métier']];
+var web = [['Interface base de données'], ['Application Saas'], ['Développement outils métier']];
 
 //add_skill('DATAMINING', 'Extraction de données web')
 add_skill('DATABASE', database, class_list);
@@ -152,4 +154,7 @@ add_software('Editeur & IDE', editor);
 add_software('Mise en production', production);
 add_software('Documents', documents);
 
-
+/* --------- INDEX --------- */
+skillProgress('VIZ',35,125.0);
+skillProgress('MODEL', 25,175.0);
+skillProgress('DB',55,125.0);

@@ -1,11 +1,18 @@
 @charset "UTF-8";
+/* Palette Ocean */
+/* Palette purple */
+/* Palette Magenta */
+/* --------------- */
+/* text */
+/* pills */
 /* Button */
+/* ------ ------ */
 body {
-  background-color: #1d493c;
+  background-color: #fffbc7;
 }
 
 h1, h3 {
-  color: #1d1326;
+  color: #020718;
 }
 
 h3 {
@@ -13,23 +20,23 @@ h3 {
 }
 
 h2 {
-  color: #dfd487;
+  color: #ef1f49;
   font-size: 30px;
 }
 
 p, ul, .li-skill {
   font-size: 14px;
-  color: #fff;
+  color: #444c67;
 }
 
 hr {
   margin-top: 5px;
   margin-bottom: 5px;
-  color: #dfd487;
+  color: #ef1f49;
 }
 
 strong {
-  color: #1d1326;
+  color: #020718;
   text-shadow: 0 0 6px #fff;
 }
 
@@ -69,7 +76,7 @@ strong {
 
 /* -- Style de bloc */
 .bloc-text {
-  background-color: #2e8a67;
+  background-color: #e1d8c6;
   padding: 20px;
 }
 
@@ -106,12 +113,8 @@ strong {
   text-align: center;
 }
 
-.far {
-  background-color: #1d1326;
-}
-
 .fa-circle {
-  color: #1d1326;
+  color: #ddbaba;
 }
 
 /* Icones */
@@ -120,7 +123,7 @@ strong {
   top: 26px;
   left: 39px;
   font-size: 50px;
-  color: #1d1326;
+  color: #ef1f49;
 }
 
 .icon-xl {
@@ -142,7 +145,7 @@ strong {
 
 /* Liste de compétences en vrac*/
 .list-skill {
-  border: 1px solid #4f8ca5;
+  border: 1px solid #ef1f49;
   height: 100%;
   padding: 8px;
 }
@@ -158,32 +161,32 @@ strong {
 
 .text-xl {
   font-size: 18px;
-  color: #1d1326;
+  color: #020718;
 }
 
 /* Projet */
 .project {
-  border: 3px #1d493c solid;
+  border: 3px #fffbc7 solid;
 }
 
 .badge {
-  border: 1px #194a95 solid;
-  color: #194a95;
+  border: 1px #ef1f49 solid;
+  color: #ef1f49;
   margin: 2px;
   font-size: 16px;
 }
 
 .c-lblue {
-  color: #4f8ca5;
+  color: #ef1f49;
 }
 
 .c-dark {
-  color: #1d1326;
+  color: #ddbaba;
 }
 
 /* bouton */
-.button.button-primary:hover, .button.button-primary:focus {
-  background: #b38030;
+.button-text.button-primary:hover, .button.button-primary:hover, .button-text.button-primary, .button.button-primary:focus {
+  background: #fe5450;
   color: #fafafa;
 }
 
@@ -195,8 +198,8 @@ strong {
   text-decoration: none;
 }
 
-.button.button-primary {
-  background: #3f2c11;
+.button-text.button-primary, .button.button-primary {
+  background: #ef1f49;
   color: #fafafa;
 }
 
@@ -205,7 +208,7 @@ strong {
   color: #222;
 }
 
-.button.button-primary, .button.button-info, .button.button-success, .button.button-warning, .button.button-danger, .button.button-inverse {
+.button-text.button-primary, .button.button-primary, .button.button-info, .button.button-success, .button.button-warning, .button.button-danger, .button.button-inverse {
   box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -224,15 +227,6 @@ a:active, a:hover {
 .button-inline {
   display: inline-block;
   vertical-align: middle;
-}
-
-.button-small {
-  height: 30px;
-  padding: 0 10px;
-  border-radius: 4px;
-  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.15);
-  font-size: 14px;
-  line-height: 28px;
 }
 
 .button {
@@ -266,14 +260,57 @@ a:active, a:hover {
   color: #222;
 }
 
+.button-text {
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.15);
+  font-size: 15px;
+  line-height: 20px;
+  padding: 11px 21px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  -webkit-transition-property: background-color;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-property: background-color;
+  -moz-transition-duration: 0.2s;
+  -moz-transition-timing-function: linear;
+  -ms-transition-property: background-color;
+  -ms-transition-duration: 0.2s;
+  -ms-transition-timing-function: linear;
+  -o-transition-property: background-color;
+  -o-transition-duration: 0.2s;
+  -o-transition-timing-function: linear;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  background: #fafafa;
+  color: #222;
+}
+
+.button-small {
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 4px;
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.15);
+  font-size: 14px;
+  line-height: 28px;
+}
+
 a {
-  color: #3f2c11;
+  color: #ef1f49;
   text-decoration: none;
 }
 
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+}
+
+.border-magenta {
+  border-color: #ef1f49 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
