@@ -1,5 +1,18 @@
 var listProjects = [
   {
+    'name' : 'Coup de patte',
+    'type' : 'Site web statique',
+    'date': 'Août 2019',
+    'tag' : ['flask','jinja','postgres','ftp'],
+    'image': '',
+    'resume': 'Site web statique pour une société de services pour animaux.\n <a href="http://www.coupdepatte.cf/"> coupdepatte.cf</a>',
+    'state' : 'En ligne - 2019',
+    'link' : {
+      'url':'http://www.coupdepatte.cf/',
+      'icon':''
+    },
+  },
+  {
     'name' : 'Registre DPO(RGPD-GDR)',
     'type' : 'Application Saas',
     'date': 'mars-aout 2017',
